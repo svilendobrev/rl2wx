@@ -11,7 +11,7 @@ def draw_table( context, pagesize):
     from reportlab.platypus.doctemplate import SimpleDocTemplate
     from reportlab.platypus import Table, TableStyle, Paragraph
     from reportlab.lib import colors
-    from engine.rl2wx.canvas import Canvas
+    from canvas import Canvas
 
     if OUT2PDF:
         from reportlab.pdfgen.canvas import Canvas

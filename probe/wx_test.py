@@ -59,7 +59,7 @@ if 0:
 if 10:
     table_data = [ [ 10*'alabala' ] ]
     from reportlab.platypus.tables import LongTable, TableStyle
-    from engine.rl2wx.fonts import register_font
+    from rl2wx.fonts import register_font
     print 'register font:', register_font('ArialMT')
     style_commands = [
         ('BOX', (0,0), (-1,-1), 1, 'BLACK'),
@@ -67,9 +67,9 @@ if 10:
     ]
     style = TableStyle( style_commands )
     t = LongTable( data=table_data, style=style)
-    from engine.report.view.wx_view import make_pagerecorder
+    from reporter.view.wx_view import make_pagerecorder
     pr = make_pagerecorder( [t], A4)
-    from engine.report.common import preview_recorder
+    from reporter.common import preview_recorder
     preview_recorder( pr)
 
 app.MainLoop()
