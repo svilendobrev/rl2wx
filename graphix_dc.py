@@ -213,7 +213,7 @@ class GraphicsDC( object):
         return getattr( me.context, name)
 
     def _draw_text( me, txt, x, y, angle =0, base_y =0):
-        from engine.ui.uitools import _
+        from svd_util.ui.wxtxt import _
         txt = _(txt)
         #print '@@@@ draw text', type(txt), repr(txt)
         import sys
