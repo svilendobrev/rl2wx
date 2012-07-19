@@ -1,5 +1,5 @@
 #$Id: matrix.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+
 
 from math import cos, sin, sqrt, atan2
 

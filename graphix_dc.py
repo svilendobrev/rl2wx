@@ -1,5 +1,5 @@
 #$Id: graphix_dc.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+# -*- coding: utf-8 -*-
 
 import wx
 from matrix import Matrix
@@ -252,7 +252,7 @@ class GraphicsDC( object):
         dy -= descent #get to the baseline
         #86: dpy[y]; xdpyinfo | grep resolution
         coef = 72.0/dpi[1] #0.75 ????  72/86 = 0.837
-        #друга причина може да е _какво_ е 14пт - bbox.h или височината dy-descent?
+        #РґСЂСѓРіР° РїСЂРёС‡РёРЅР° РјРѕР¶Рµ РґР° Рµ _РєР°РєРІРѕ_ Рµ 14РїС‚ - bbox.h РёР»Рё РІРёСЃРѕС‡РёРЅР°С‚Р° dy-descent?
         dx *= coef
         dy *= coef
         descent *= coef
@@ -321,7 +321,7 @@ class GraphicsDC( object):
         if 0:
             base_y = scaled_point_size - base_y + descent
         #print base_y
-        #base_y -= 1 #??? закръглението требе да се обърне:-0.5 ЗА НЯКОИ неща ???
+        #base_y -= 1 #??? Р·Р°РєСЂСЉРіР»РµРЅРёРµС‚Рѕ С‚СЂРµР±Рµ РґР° СЃРµ РѕР±СЉСЂРЅРµ:-0.5 Р—Рђ РќРЇРљРћР РЅРµС‰Р° ???
         matr.translate( 0, base_y, pre=True)
 
         p = me._transform_xy_int( 0,0)

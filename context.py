@@ -1,5 +1,5 @@
 #$Id: context.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+
 
 import wx
 from graphix_dc import GraphicsDC, wx_color

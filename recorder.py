@@ -1,5 +1,5 @@
 #$Id: recorder.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+
 
 class MethodCallData( object):
     def __init__( me, name, *a, **k):

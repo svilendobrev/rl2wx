@@ -1,5 +1,5 @@
 #$Id: canvas.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+
 
 from reportlab.pdfgen.canvas import Canvas as ReportlabCanvas
 from reportlab.lib.colors import toColor

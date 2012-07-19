@@ -1,5 +1,5 @@
 #$Id: page_recorder.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+
 
 from recorder import Recorder
 class Page( Recorder):

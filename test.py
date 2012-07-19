@@ -1,5 +1,5 @@
 #$Id: test.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+# -*- coding: utf-8 -*-
 
 import wx
 from printout import MyPrintout
@@ -213,7 +213,7 @@ if __name__ == '__main__':
     app = wx.PySimpleApp()
     if 0:
         frame = wx.Frame(None, -1, 'Dummy frame')
-        frame.SetSize( map( int, (8.27*72+0.5, 11.69*72+0.5)))  #*72 щото rl-coords са в points=inch/72
+        frame.SetSize( map( int, (8.27*72+0.5, 11.69*72+0.5)))  #*72 С‰РѕС‚Рѕ rl-coords СЃР° РІ points=inch/72
         win = TestPrintPanel( frame)
         frame.Show()
     else:

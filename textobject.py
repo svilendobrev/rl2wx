@@ -1,5 +1,5 @@
 #$Id: textobject.py 8436 2009-04-27 09:46:29Z hristo $
-# -*- coding: cp1251 -*-
+
 
 from reportlab.pdfgen.textobject import PDFTextObject
 from reportlab.lib.colors import toColor
